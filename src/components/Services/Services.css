@@ -1,0 +1,13 @@
+.services_cards {
+  min-height: 6rem;
+  border-radius: 8px;
+  /* border: 1px solid gray; */
+  margin-top: 1rem;
+  box-shadow: 2px 1px 5px 0px #aeaeae;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services_cards:hover {
+  box-shadow: 2px 2px 2px 2px #c2c2c2;
+}
