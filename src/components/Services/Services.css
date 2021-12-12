@@ -1,13 +1,28 @@
 .services_cards {
-  min-height: 6rem;
+  min-height: 12rem;
   border-radius: 8px;
   /* border: 1px solid gray; */
   margin-top: 1rem;
   box-shadow: 2px 1px 5px 0px #aeaeae;
   display: flex;
+  flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
 }
 .services_cards:hover {
   box-shadow: 2px 2px 2px 2px #c2c2c2;
+}
+.services_cards .icons img {
+  width: 4rem;
+}
+.service-box a {
+  text-decoration: none;
+}
+.service_text p {
+  color: #524646;
+  font-weight: 500;
+}
+.serviceLocText h3 {
+  font-size: inherit;
+  font-weight: 600;
 }

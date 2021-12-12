@@ -1,0 +1,33 @@
+.navbar .searchBar {
+  border: 2px solid gray;
+  border-radius: 2rem;
+}
+.navbar .submitBtn {
+  border-radius: 2rem;
+  background-color: #4883db;
+  color: white;
+}
+.navbar-brand .logo {
+  font-weight: 800;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  color: #0855c8;
+}
+.navbar-brand .logo span {
+  color: #ff5200;
+}
+
+.navbar .list-services {
+  background-color: #ff5200;
+  padding: 3px;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+@media (max-width: 575px) {
+  .container .navbar-brand {
+    margin-right: 0px !important;
+  }
+}

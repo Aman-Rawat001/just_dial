@@ -1,14 +1,19 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import "./Body.css";
 import Services from "../Services/Services";
+import Plumber from "../services_contacts/Plumber.js/Plumber";
 
 const Body = () => {
   return (
     <>
       <Navbar />
       <hr className="w-50 mx-auto" />
-      <Services />
+      <Routes>
+        <Route exact path="/" element={<Services />} />
+        <Route exact path="/plumbers" element={<Plumber />} />
+      </Routes>
     </>
   );
 };
