@@ -25,7 +25,17 @@
   font-weight: 500;
   border-radius: 4px;
 }
-
+.headerNote {
+  background-color: #db9516;
+  text-align: center;
+  position: sticky;
+  box-shadow: 3px 3px 4px 0px #b8b8b8;
+  top: 0;
+}
+.headerNote p {
+  font-weight: 500;
+  font-size: 0.9rem;
+}
 @media (max-width: 575px) {
   .container .navbar-brand {
     margin-right: 0px !important;

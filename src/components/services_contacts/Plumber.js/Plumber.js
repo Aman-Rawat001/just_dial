@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Contacts from "../Contacts";
 import plumberImg from "../../Images/plumberImg.jfif";
+import { storage } from "../../../firebase";
 
 const plumberContacts = [
   {
@@ -38,6 +39,24 @@ const plumberContacts = [
 ];
 
 const Plumber = () => {
+  const [info, setInfo] = useState([]);
+
+  const fetchPlumbers = () => {
+    storage
+      .collection("plumbers_list")
+      .get()
+      .then((querySnapshot) => {
+        querySnapshot.forEach((element) => {
+          var data = element.data();
+          setInfo((arr) => [...arr, data]);
+        });
+      });
+    console.log(info);
+  };
+  useEffect(() => {
+    fetchPlumbers();
+  }, []);
+
   return (
     <>
       <div>

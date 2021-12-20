@@ -40,7 +40,12 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <br></br>
+      <div className="headerNote">
+        <p>
+          Please attention, if you have any queries contact us on 9058153667.
+        </p>
+      </div>
+      {/* <br></br> */}
       {/* search bar */}
       <nav class="navbar">
         <div class="container">
