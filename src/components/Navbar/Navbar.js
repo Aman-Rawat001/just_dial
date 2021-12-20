@@ -2,17 +2,18 @@ import React from "react";
 import "./Navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <>
       <nav class="navbar navbar-expand-lg navbar-light  bg-light">
         <div class="container">
-          <a class="navbar-brand" href="/">
+          <NavLink className="navbar-brand" to="/">
             <div className="logo">
-              Just<span>Dial</span>
+              Dun<span>Services</span>
             </div>
-          </a>
+          </NavLink>
           <a
             className="nav-link list-services px-2"
             aria-current="page"

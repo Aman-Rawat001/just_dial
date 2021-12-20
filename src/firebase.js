@@ -14,7 +14,7 @@ const firebaseConfig = {
 
 firebase.initializeApp(firebaseConfig);
 const storage = firebase.firestore();
-const analytics = firebase.analytics();
+// const analytics = firebase.analytics();
 
 export { storage, firebase as default };
 // export { analytics };

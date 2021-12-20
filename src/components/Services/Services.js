@@ -24,7 +24,7 @@ const services_cards = [
 const Services = () => {
   return (
     <>
-      <div className="container">
+      <div className="container pb-5">
         <div className="serviceLocText">
           <h3>Our Services In Your Location / आपके स्थान पर हमारी सेवाएं</h3>
         </div>

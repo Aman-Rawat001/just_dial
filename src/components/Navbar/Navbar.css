@@ -36,6 +36,10 @@
   font-weight: 500;
   font-size: 0.9rem;
 }
+.loading {
+  text-align: center;
+  font-weight: 500;
+}
 @media (max-width: 575px) {
   .container .navbar-brand {
     margin-right: 0px !important;
