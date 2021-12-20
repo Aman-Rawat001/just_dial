@@ -8,7 +8,7 @@ const Navbar = () => {
     <>
       <nav class="navbar navbar-expand-lg navbar-light  bg-light">
         <div class="container">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/">
             <div className="logo">
               Just<span>Dial</span>
             </div>
@@ -35,6 +35,7 @@ const Navbar = () => {
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+
             <button className="btn btn-outline-primary">Login / Sign In</button>
           </div>
         </div>

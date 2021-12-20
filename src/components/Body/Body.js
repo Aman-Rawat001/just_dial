@@ -4,6 +4,7 @@ import Navbar from "../Navbar/Navbar";
 import "./Body.css";
 import Services from "../Services/Services";
 import Plumber from "../services_contacts/Plumber.js/Plumber";
+import Doctors from "../services_contacts/Doctors.js/Doctors";
 
 const Body = () => {
   return (
@@ -13,6 +14,7 @@ const Body = () => {
       <Routes>
         <Route exact path="/" element={<Services />} />
         <Route exact path="/plumbers" element={<Plumber />} />
+        <Route exact path="/doctors" element={<Doctors />} />
       </Routes>
     </>
   );

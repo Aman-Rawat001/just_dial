@@ -1,0 +1,71 @@
+.contacts p {
+  margin-bottom: 0;
+}
+.contacts {
+  background-color: white;
+  border-radius: 10px;
+}
+.contacts .imgBox {
+  border: 1px solid;
+  border-radius: 5px;
+}
+.contacts .imgBox .serviceImg {
+  width: 10rem;
+}
+.contacts .shopDetails .shopName {
+  font-weight: 700;
+  font-size: larger;
+  color: #3d3d3d;
+}
+.contacts .shopDetails .shopStar {
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+.contacts .shopDetails .shopAddress {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #686767;
+}
+.startSuccess {
+  color: orange;
+}
+.startFailure {
+  color: #cecece;
+}
+.experienceTag {
+  background-color: #b6b6b6;
+  border-radius: 2px;
+  color: white;
+  font-size: 12px;
+}
+.callToActionBox {
+  display: flex;
+  justify-content: space-between;
+}
+.callToActionBox .btn-outline-primary {
+  border-color: #4883db;
+  color: #4883db;
+  font-weight: 500;
+}
+.callToActionBox .btn-primary {
+  background-color: #4883db;
+  width: 100%;
+  font-weight: 500;
+}
+.callToActionBox a {
+  width: 100%;
+}
+.spacer {
+  color: transparent;
+}
+.bgGray {
+  background-color: #eeeeee;
+}
+
+/* @media screen and (max-width: 575px) {
+  .contacts .shopDetails .shopName {
+    font-size: 1rem;
+  }
+  .callToActionBox .btn-outline-primary {
+  }
+} */

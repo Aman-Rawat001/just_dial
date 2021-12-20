@@ -1,49 +1,49 @@
 import React from "react";
 import Contacts from "../Contacts";
-import plumberImg from "../../Images/plumberImg.jfif";
+import DoctorsImg from "../../Images/docterImg.jfif";
 
-const plumberContacts = [
+const DoctorsContacts = [
   {
     id: 1,
-    img: plumberImg,
-    name: "Gupta Plumber Sainik Colony",
+    img: DoctorsImg,
+    name: "Gupta Doctors Sainik Colony",
     phone: 238790800,
     address: "Sainik colony balawala",
     experience: 8,
   },
   {
     id: 2,
-    img: plumberImg,
-    name: "Gupta Plumber Sainik Colony",
+    img: DoctorsImg,
+    name: "Gupta Doctors Sainik Colony",
     phone: 238790800,
     address: "Sainik colony balawala",
     experience: 8,
   },
   {
     id: 3,
-    img: plumberImg,
-    name: "Gupta Plumber Sainik Colony",
+    img: DoctorsImg,
+    name: "Gupta Doctors Sainik Colony",
     phone: 238790800,
     address: "Sainik colony balawala",
     experience: 8,
   },
   {
     id: 4,
-    img: plumberImg,
-    name: "Gupta Plumber Sainik Colony",
+    img: DoctorsImg,
+    name: "Gupta Doctors Sainik Colony",
     phone: 238790800,
     address: "Sainik colony balawala",
     experience: 8,
   },
 ];
 
-const Plumber = () => {
+const Doctors = () => {
   return (
     <>
       <div>
         <div className="bgGray pt-3">
           <div className="container">
-            {plumberContacts.map((item, index) => {
+            {DoctorsContacts.map((item, index) => {
               return (
                 <Contacts
                   name={item.name}
@@ -62,4 +62,4 @@ const Plumber = () => {
   );
 };
 
-export default Plumber;
+export default Doctors;

@@ -11,9 +11,9 @@ import repairIcon from "../Images/repair-tools.png";
 import weddingIcon from "../Images/wedding-planner.png";
 
 const services_cards = [
-  { service: "Plumbers", icon: plumberIcon },
-  { service: "Electrician", icon: electricianIcon },
-  { service: "Doctor", icon: doctorIcon },
+  { service: "plumbers", icon: plumberIcon },
+  { service: "electrician", icon: electricianIcon },
+  { service: "doctors", icon: doctorIcon },
   { service: "Interior Designers", icon: decorationIcon },
   { service: "Repairs & Services", icon: repairIcon },
   { service: "Gardner", icon: gardnerIcon },
