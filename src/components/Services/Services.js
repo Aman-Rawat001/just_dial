@@ -14,11 +14,11 @@ const services_cards = [
   { service: "plumbers", icon: plumberIcon },
   { service: "electrician", icon: electricianIcon },
   { service: "doctors", icon: doctorIcon },
-  { service: "Interior Designers", icon: decorationIcon },
-  { service: "Repairs & Services", icon: repairIcon },
-  { service: "Gardner", icon: gardnerIcon },
-  { service: "Wedding Planners", icon: weddingIcon },
-  { service: "Home Services", icon: householdIcon },
+  { service: "interior_designers", icon: decorationIcon },
+  { service: "repairs_&_services", icon: repairIcon },
+  { service: "gardner", icon: gardnerIcon },
+  { service: "wedding_planners", icon: weddingIcon },
+  { service: "home_services", icon: householdIcon },
 ];
 
 const Services = () => {

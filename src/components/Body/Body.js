@@ -1,6 +1,7 @@
 import React, { Suspense, lazy } from "react";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 import "./Body.css";
 import Services from "../Services/Services";
 // import Plumber from "../services_contacts/service_list.js/service_list";
@@ -21,9 +22,16 @@ const Body = () => {
           <Route exact path="/" element={<Services />} />
           <Route exact path="/plumbers" element={<Plumber />} />
           <Route exact path="/doctors" element={<Plumber />} />
+          <Route exact path="/electrician" element={<Plumber />} />
+          <Route exact path="/interior_designers" element={<Plumber />} />
+          <Route exact path="/repairs_&_services" element={<Plumber />} />
+          <Route exact path="/gardner" element={<Plumber />} />
+          <Route exact path="/wedding_planners" element={<Plumber />} />
+          <Route exact path="/home_services" element={<Plumber />} />
           {/* <Route exact path="/doctors" element={<Doctors />} /> */}
         </Routes>
       </Suspense>
+      <Footer />
     </>
   );
 };

@@ -34,16 +34,22 @@ const Navbar = () => {
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+          <div
+            class="collapse navbar-collapse registerYourService"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 phoneDisplayNone"></ul>
 
-            <button className="btn btn-outline-primary">Login / Sign In</button>
+            <button className="btn btn-outline-primary ">
+              Register Your Service
+            </button>
           </div>
         </div>
       </nav>
       <div className="headerNote">
         <p>
-          Please attention, if you have any queries contact us on 9058153667.
+          Please attention, if you have any queries contact us on
+          support@dunservices.com.
         </p>
       </div>
       {/* <br></br> */}

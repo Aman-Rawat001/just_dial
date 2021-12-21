@@ -30,6 +30,7 @@
   text-align: center;
   position: sticky;
   box-shadow: 3px 3px 4px 0px #b8b8b8;
+  z-index: 999;
   top: 0;
 }
 .headerNote p {
@@ -40,8 +41,13 @@
   text-align: center;
   font-weight: 500;
 }
+
 @media (max-width: 575px) {
   .container .navbar-brand {
     margin-right: 0px !important;
+  }
+  .registerYourService {
+    display: flex;
+    flex-direction: column;
   }
 }

@@ -1,0 +1,13 @@
+.FooterNote {
+  background-color: #db9516;
+  text-align: center;
+  position: sticky;
+  box-shadow: 3px 3px 4px 0px #b8b8b8;
+  z-index: 999;
+  top: 0;
+}
+.FooterNote p {
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}

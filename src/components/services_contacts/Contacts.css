@@ -8,9 +8,11 @@
 .contacts .imgBox {
   border: 1px solid;
   border-radius: 5px;
+  height: 12rem;
 }
 .contacts .imgBox .serviceImg {
-  width: 10rem;
+  width: 100%;
+  height: 100%;
 }
 .contacts .shopDetails .shopName {
   font-weight: 700;
