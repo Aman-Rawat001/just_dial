@@ -9,16 +9,20 @@ import electricianIcon from "../Images/electrician.png";
 import householdIcon from "../Images/household.png";
 import repairIcon from "../Images/repair-tools.png";
 import weddingIcon from "../Images/wedding-planner.png";
+import restaurantIcon from "../Images/restaurant.png";
+import dairyIcon from "../Images/dairy-products.png";
 
 const services_cards = [
   { service: "plumbers", icon: plumberIcon },
-  { service: "electrician", icon: electricianIcon },
   { service: "doctors", icon: doctorIcon },
+  { service: "restaurants", icon: restaurantIcon },
+  { service: "electrician", icon: electricianIcon },
   { service: "interior_designers", icon: decorationIcon },
   { service: "repairs_&_services", icon: repairIcon },
   { service: "gardner", icon: gardnerIcon },
   { service: "wedding_planners", icon: weddingIcon },
   { service: "home_services", icon: householdIcon },
+  { service: "dairy_services", icon: dairyIcon },
 ];
 
 const Services = () => {
