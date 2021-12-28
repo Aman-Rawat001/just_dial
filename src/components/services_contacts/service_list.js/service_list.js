@@ -20,7 +20,6 @@ const Plumber = () => {
           setPlummberContacts((arr) => [...arr, data]);
         });
       });
-    console.log(plumberContacts);
   };
   useEffect(() => {
     fetchUrl();
@@ -29,22 +28,28 @@ const Plumber = () => {
   return (
     <>
       <div>
-        <div className="bgGray py-3">
-          <div className="container">
-            {plumberContacts.map((item, index) => {
-              return (
-                <Contacts
-                  name={item.name}
-                  img={item.img}
-                  phone={item.phone}
-                  address={item.address}
-                  id={item.id}
-                  experience={item.experience}
-                />
-              );
-            })}
+        {plumberContacts[0] == null ? (
+          <div className="text-center my-3 textBold">
+            Fetching Services Near You...
           </div>
-        </div>
+        ) : (
+          <div className="bgGray py-3">
+            <div className="container">
+              {plumberContacts.map((item, index) => {
+                return (
+                  <Contacts
+                    name={item.name}
+                    img={item.img}
+                    phone={item.phone}
+                    address={item.address}
+                    id={item.id}
+                    experience={item.experience}
+                  />
+                );
+              })}
+            </div>
+          </div>
+        )}
       </div>
     </>
   );

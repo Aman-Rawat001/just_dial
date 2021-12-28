@@ -11,6 +11,10 @@ import repairIcon from "../Images/repair-tools.png";
 import weddingIcon from "../Images/wedding-planner.png";
 import restaurantIcon from "../Images/restaurant.png";
 import dairyIcon from "../Images/dairy-products.png";
+import carpenterIcon from "../Images/carpenter.png";
+import pestControlIcon from "../Images/insecticide.png";
+import painterIcon from "../Images/painter.png";
+import saloonIcon from "../Images/saloon.png";
 
 const services_cards = [
   { service: "plumbers", icon: plumberIcon },
@@ -23,6 +27,10 @@ const services_cards = [
   { service: "wedding_planners", icon: weddingIcon },
   { service: "home_services", icon: householdIcon },
   { service: "dairy_services", icon: dairyIcon },
+  { service: "carpenter", icon: carpenterIcon },
+  { service: "pest_control", icon: pestControlIcon },
+  { service: "painter", icon: painterIcon },
+  { service: "saloon", icon: saloonIcon },
 ];
 
 const Services = () => {

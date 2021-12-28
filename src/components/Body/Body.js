@@ -30,6 +30,10 @@ const Body = () => {
           <Route exact path="/home_services" element={<Plumber />} />
           <Route exact path="/restaurants" element={<Plumber />} />
           <Route exact path="/dairy_services" element={<Plumber />} />
+          <Route exact path="/painter" element={<Plumber />} />
+          <Route exact path="/pest_control" element={<Plumber />} />
+          <Route exact path="/carpenter" element={<Plumber />} />
+          <Route exact path="/saloon" element={<Plumber />} />
           {/* <Route exact path="/doctors" element={<Doctors />} /> */}
         </Routes>
       </Suspense>
