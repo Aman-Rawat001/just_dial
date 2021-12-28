@@ -26,3 +26,27 @@
   font-size: inherit;
   font-weight: 600;
 }
+.hideAtLargeScreen {
+  display: none;
+}
+.noteWindow div {
+  background-color: rgb(18, 116, 192);
+  color: white;
+  font-size: smaller;
+  font-weight: 500;
+}
+.noteWindow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+.noteWindow button {
+  /* color: white; */
+  background-color: white;
+}
+@media screen and (max-width: 575px) {
+  .hideAtLargeScreen {
+    display: block;
+  }
+}

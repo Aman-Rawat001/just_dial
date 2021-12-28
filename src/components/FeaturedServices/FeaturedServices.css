@@ -1,0 +1,38 @@
+.featuredCarousel .slick-next {
+  right: 0px;
+}
+.featuredCarousel {
+  background-color: #faf7fc;
+}
+.featuredCarousel .slick-prev:before,
+.slick-next:before {
+  display: none;
+}
+.featuredCarousel a {
+  text-decoration: none;
+}
+.featuredCarousel .posterImg {
+  width: 95%;
+  height: 10rem;
+  border-radius: 10px;
+}
+.featuredCarousel h2 {
+  color: #0f4b75;
+  font-size: 1.45rem;
+  font-weight: 700;
+}
+.featuredCarousel .posterCard h6 {
+  text-decoration: none;
+  color: #000000;
+  font-weight: normal;
+  border-top-style: double;
+  font-size: smaller;
+}
+.featuredCarousel .posterCard {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+}
